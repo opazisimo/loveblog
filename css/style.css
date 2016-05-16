@@ -31,7 +31,43 @@ header {
 
 .header_bottom_area {
   background-color: #f1ae9d;
-  height: 80px; }
+  height: 80px;
+  padding-top: 0px !important; }
+  .header_bottom_area .container {
+    margin-top: 0px !important;
+    border-left: 15px solid #ffffff;
+    border-right: 15px solid #ffffff;
+    background-color: #e46339;
+    height: 80px; }
+    .header_bottom_area .container h1 {
+      font-family: "Oswald";
+      text-transform: uppercase;
+      font-size: 24px;
+      color: #ffffff; }
+
+#contenido-blog .aside .sidetitle h3 {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  color: #e46339;
+  font-size: 20px; }
+#contenido-blog .aside .sidetitle p {
+  color: #424242; }
+#contenido-blog .aside ul {
+  list-style-type: none;
+  list-style-position: outside; }
+  #contenido-blog .aside ul a {
+    color: #424242; }
+#contenido-blog .aside .photos {
+  padding: 0px 15px 5px 15px;
+  width: 100%; }
+  #contenido-blog .aside .photos .square {
+    background-color: #f1ae9d;
+    border: 1px solid #e46339;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 5px; }
 
 #slide {
   position: relative;

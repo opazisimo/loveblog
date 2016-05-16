@@ -29,4 +29,17 @@ header {
 .header_bottom_area {
 	background-color: $prin-rose;
 	height: 80px;
+	padding-top: 0px !important;
+
+	.container {
+		margin-top: 0px !important;
+		@include bordCont;
+		background-color: $prin-tanger;
+		height: 80px;
+		h1 {
+			@include fontTitles;
+			font-size: 24px;
+			color: $wh-text;
+		}
+	}
 }

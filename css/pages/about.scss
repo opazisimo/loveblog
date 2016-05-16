@@ -1,0 +1,27 @@
+#contenido-blog {
+	.aside {
+		.sidetitle {
+			h3 {
+				@include tangertitle;
+			}
+			p {
+				color: $drk-text;
+			}
+		}
+		ul {
+			list-style-type: none;
+			list-style-position: outside;
+
+				a {
+					color: $drk-text;
+				}
+			}
+		.photos {
+			padding:0px 15px 5px 15px;
+			width: 100%;
+			.square {
+				@include squares
+			}
+		}
+	}
+}
