@@ -1,0 +1,51 @@
+@mixin fontTitles {
+	font-family: "Oswald";
+	text-transform: uppercase;
+}
+
+@mixin bordCont {
+	border-left: 15px solid $wh-text;
+	border-right: 15px solid $wh-text;
+}
+@mixin positrel-uno {
+	position: relative;
+	bottom:80px;
+}
+@mixin positrel-dos {
+	position: relative;
+	bottom:40px;
+}
+@mixin btn-more {
+	padding: 10px 20px;
+	background-color: $prin-tanger;
+	color: $wh-text;
+	@include fontTitles;
+}
+
+@mixin bordergris {
+	border: 1px solid $prin-gris;
+
+}
+@mixin tangertitle {
+	@include fontTitles;
+	color: $prin-tanger;
+	font-size:20px;
+}
+
+@mixin gristitle {
+	@include fontTitles;
+	color: $prin-gris;
+	font-size:20px;
+}
+
+@mixin marg-sect-ext {
+	padding: 40px 0px;
+}
+
+@mixin marg-sect-int {
+	padding: 20px 0px;
+}
+
+@mixin padfoot {
+	padding: 30px 10px;
+}

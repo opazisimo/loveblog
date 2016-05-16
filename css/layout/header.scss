@@ -1,0 +1,32 @@
+
+header {
+	@include fontTitles;
+	padding: 10px 0px;
+}
+.logo {
+	h1 {
+		color: $prin-tanger;
+		span {
+			color:$prin-rose !important;
+		}
+	}
+}
+
+#nav {
+	li {
+		display:inline-block;
+		margin: 20px;
+		a {
+			color: $prin-gris;
+
+		}
+		.active {
+			color: $prin-tanger !important;
+		}
+	}
+}
+
+.header_bottom_area {
+	background-color: $prin-rose;
+	height: 80px;
+}

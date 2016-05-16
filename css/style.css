@@ -1,0 +1,98 @@
+footer {
+  background-color: #f1ae9d; }
+  footer .container {
+    border-left: 15px solid #ffffff;
+    border-right: 15px solid #ffffff;
+    padding: 30px 10px;
+    background-color: #e46339;
+    color: #fffbef; }
+    footer .container h2 {
+      font-family: "Oswald";
+      text-transform: uppercase;
+      color: #ffffff; }
+
+header {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  padding: 10px 0px; }
+
+.logo h1 {
+  color: #e46339; }
+  .logo h1 span {
+    color: #f1ae9d !important; }
+
+#nav li {
+  display: inline-block;
+  margin: 20px; }
+  #nav li a {
+    color: #bbbbbb; }
+  #nav li .active {
+    color: #e46339 !important; }
+
+.header_bottom_area {
+  background-color: #f1ae9d;
+  height: 80px; }
+
+#slide {
+  position: relative;
+  bottom: 80px; }
+  #slide img {
+    width: 100%;
+    border-left: 15px solid #ffffff;
+    border-right: 15px solid #ffffff; }
+
+#service {
+  position: relative;
+  bottom: 40px; }
+  #service .boxicon {
+    text-align: center; }
+    #service .boxicon h1 {
+      display: inline;
+      font-family: "Oswald";
+      text-transform: uppercase;
+      color: #e46339;
+      font-size: 60px; }
+  #service .boxtitle h2 {
+    font-family: "Oswald";
+    text-transform: uppercase;
+    color: #e46339;
+    font-size: 20px; }
+  #service p {
+    color: #424242;
+    margin-bottom: 30px; }
+  #service .boton {
+    padding: 10px 20px;
+    background-color: #e46339;
+    color: #ffffff;
+    font-family: "Oswald";
+    text-transform: uppercase; }
+
+#fromblog h2, #recent h2 {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  color: #e46339;
+  font-size: 20px; }
+#fromblog .fromb, #recent .fromb {
+  padding: 20px 0px; }
+  #fromblog .fromb .lilcont, #recent .fromb .lilcont {
+    border: 1px solid #bbbbbb; }
+    #fromblog .fromb .lilcont img, #recent .fromb .lilcont img {
+      width: 100%; }
+    #fromblog .fromb .lilcont .blog_post_meta, #recent .fromb .lilcont .blog_post_meta {
+      padding: 10px 30px; }
+      #fromblog .fromb .lilcont .blog_post_meta h3, #recent .fromb .lilcont .blog_post_meta h3 {
+        font-family: "Oswald";
+        text-transform: uppercase;
+        color: #bbbbbb;
+        font-size: 20px; }
+      #fromblog .fromb .lilcont .blog_post_meta h4, #recent .fromb .lilcont .blog_post_meta h4 {
+        font-family: "Oswald";
+        text-transform: uppercase;
+        color: #e46339;
+        font-size: 20px;
+        font-size: 14px !important; }
+
+#recent {
+  padding: 40px 0px; }
+
+/*# sourceMappingURL=style.css.map */

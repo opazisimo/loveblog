@@ -1,0 +1,14 @@
+footer {
+	background-color: $prin-rose;
+	.container {
+		@include bordCont;
+		@include padfoot;
+		background-color: $prin-tanger;
+		color: $colorfoot;
+
+		h2 {
+			@include fontTitles;
+			color: $wh-text;
+		}
+	}
+}

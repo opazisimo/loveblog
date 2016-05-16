@@ -1,0 +1,63 @@
+#slide {
+	@include positrel-uno;
+	img {
+		width: 100%;
+		@include bordCont;
+	}
+
+}
+#service {
+	@include positrel-dos;
+	.boxicon {
+		text-align: center;
+		h1 {
+			display: inline;
+			@include fontTitles;
+			color: $prin-tanger;
+			font-size: 60px;
+		}
+	}
+	.boxtitle {
+		h2 {
+			@include tangertitle;
+		}
+	}
+	p {
+		color: $drk-text;
+		margin-bottom: 30px;
+	}
+	.boton {
+		@include btn-more;
+	}
+}
+
+#fromblog {
+	h2 {
+		@include tangertitle;
+
+	}
+	.fromb {
+		@include marg-sect-int;
+		.lilcont {
+			@include bordergris;
+			img {
+				width: 100%;
+			}
+			.blog_post_meta {
+				h3 {
+					@include gristitle;
+				}
+				padding: 10px 30px;
+				h4 {
+					@include tangertitle;
+					font-size: 14px !important;
+				}
+			}
+		}
+	}
+}
+
+#recent {
+	@extend #fromblog;
+	@include marg-sect-ext;
+} 
