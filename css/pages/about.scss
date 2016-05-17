@@ -24,4 +24,25 @@
 			}
 		}
 	}
+	.blog {
+		img {
+			display:inline-block;
+			margin: 20px;
+		}
+		p {
+			color: $drk-text;
+		}
+		.first {
+			display:inline-block;
+			margin-top: 20px;
+		}
+		.last {
+			margin-bottom: 20px;
+		}
+		blockquote {
+			color: $prin-tanger;
+			margin-left: 30px;
+			border-left: 10px solid $prin-tanger !important;
+		}
+	}
 }
