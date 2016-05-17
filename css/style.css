@@ -83,6 +83,48 @@ header {
   margin-left: 30px;
   border-left: 10px solid #e46339 !important; }
 
+#contenido-blog .supercont {
+  margin-top: 30px; }
+#contenido-blog .blog-cont {
+  border-left: 15px solid #ffffff;
+  border-right: 15px solid #ffffff; }
+  #contenido-blog .blog-cont .iconito {
+    position: relative;
+    right: 105px; }
+  #contenido-blog .blog-cont .post {
+    position: relative;
+    bottom: 75px; }
+    #contenido-blog .blog-cont .post .headerpost {
+      width: 100%;
+      margin-bottom: 20px; }
+    #contenido-blog .blog-cont .post span {
+      font-family: "Oswald";
+      text-transform: uppercase;
+      color: #e46339;
+      font-size: 20px;
+      font-size: 16px; }
+    #contenido-blog .blog-cont .post p {
+      color: #bbbbbb; }
+    #contenido-blog .blog-cont .post h4 {
+      font-family: "Oswald";
+      text-transform: uppercase;
+      color: #e46339;
+      font-size: 20px; }
+    #contenido-blog .blog-cont .post .postit {
+      color: #424242; }
+    #contenido-blog .blog-cont .post .pattern {
+      background: url(../images/post_border_bg.png);
+      width: 100%;
+      height: 13px;
+      position: relative;
+      top: 30px;
+      left: 20px; }
+    #contenido-blog .blog-cont .post .postquote {
+      padding: 20px;
+      background: url(../images/quote_bg.png);
+      width: 100%;
+      height: 100px; }
+
 #slide {
   position: relative;
   bottom: 80px; }
