@@ -1,3 +1,5 @@
+@mixing marbottom {
+  margin-bottom: 50px; }
 footer {
   background-color: #f1ae9d; }
   footer .container {
@@ -186,5 +188,40 @@ header {
 
 #recent {
   padding: 40px 0px; }
+
+#contenido-porftolio .categories {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-family: "Oswald";
+  text-transform: uppercase; }
+  #contenido-porftolio .categories .titulo {
+    color: #424242;
+    font-size: 20px; }
+  #contenido-porftolio .categories li {
+    display: inline;
+    margin-left: 20px; }
+    #contenido-porftolio .categories li a {
+      color: #bbbbbb;
+      font-size: 16px !important;
+      text-decoration: none; }
+      #contenido-porftolio .categories li a:hover {
+        padding: 10px;
+        background-color: #e46339;
+        color: #ffffff; }
+#contenido-porftolio .pelis {
+  margin-bottom: 50px; }
+  #contenido-porftolio .pelis .thumbpelis img {
+    width: 100%;
+    margin-bottom: 10px !important; }
+  #contenido-porftolio .pelis .thumbpelis .titpelis {
+    padding: 4px;
+    border: 1px solid #bbbbbb;
+    font-family: "Oswald";
+    text-transform: uppercase; }
+    #contenido-porftolio .pelis .thumbpelis .titpelis h5 {
+      color: #bbbbbb;
+      font-size: 25px; }
+    #contenido-porftolio .pelis .thumbpelis .titpelis p {
+      color: #e46339; }
 
 /*# sourceMappingURL=style.css.map */

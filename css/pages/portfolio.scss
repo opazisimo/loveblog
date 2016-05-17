@@ -1,0 +1,48 @@
+#contenido-porftolio {
+	.categories {
+		margin-bottom: $marg-b;
+		margin-top: 20px;
+		@include fontTitles;
+		.titulo {
+			color: $drk-text;
+			font-size: 20px;
+		}
+		li {
+			display: inline;
+			margin-left: 20px;
+			a {
+				color: $prin-gris;
+				font-size: 16px !important;
+				text-decoration:none;
+
+				&:hover {
+					padding: 10px;
+					background-color: $prin-tanger;
+					color: $wh-text;
+				}
+			}
+		}
+
+	}
+	.pelis {
+		margin-bottom: $marg-b;
+		.thumbpelis {
+			img {
+				width: 100%;
+				margin-bottom: 10px !important;
+			}
+			.titpelis {
+				padding:4px;
+				border: 1px solid $prin-gris;
+				@include fontTitles;
+				h5 {
+					color: $prin-gris;
+					font-size: 25px;
+				}
+				p {
+					color: $prin-tanger;
+				}
+			}
+		}
+	}
+}

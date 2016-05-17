@@ -59,3 +59,7 @@
 	display: inline-block;
 	margin-left:5px;
 }
+
+@mixing marbottom {
+	margin-bottom: $marg-b;
+}
