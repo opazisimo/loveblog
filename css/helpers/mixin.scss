@@ -60,6 +60,14 @@
 	margin-left:5px;
 }
 
-@mixing marbottom {
+@mixin marbottom {
 	margin-bottom: $marg-b;
+}
+
+@mixin martop {
+	margin-top: 20px;
+}
+
+@mixin marbot {
+	margin-bottom: 20px;
 }

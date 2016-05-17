@@ -1,0 +1,30 @@
+.central {
+	img {
+		width: 100%;
+		@include martop;
+	}
+	.info {
+		@include martop;
+		p {
+			color: $drk-text;
+		}
+		a {
+			color: $prin-tanger;
+		}
+	}
+	.formu {
+		input {
+			display: block;
+			width:60%;
+		}
+		#mesagge {
+			width:100%;
+			resize:none;
+		}
+		.boni {
+			border: 1px solid $prin-tanger;
+			@include marbot;
+			@include tangertitle;
+		}
+	}
+}
